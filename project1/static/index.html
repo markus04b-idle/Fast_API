@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Times Table Practice</h1>
+        <div class="card">
+            <div class="problem-display">
+                <span id="num1" class="number">?</span>
+                <span class="operator">×</span>
+                <span id="num2" class="number">?</span>
+            </div>
+            <button id="get-number-btn" class="button button-primary">New Problem</button>
+            
+            <div class="answer-section" id="answer-section" style="display: none;">
+                <input type="number" id="answer-input" class="answer-input" placeholder="Your answer" autofocus>
+                <button id="check-btn" class="button button-check">Check Answer</button>
+            </div>
+            
+            <p id="result-text" class="result-text" style="display: none;"></p>
+            <p id="loading-text" class="loading-text" style="display: none;">Loading...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
