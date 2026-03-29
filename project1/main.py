@@ -15,3 +15,4 @@ def get_product(n1: int, n2: int):
     return(n1*n2)
 
 app.mount("/", StaticFiles(directory="static", html=True), name="static")
+
